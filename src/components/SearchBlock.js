@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 import "../CSS/SearchBlock.css";
 
 const defaultCenter = [-26.2041, 28.0473];
-const defaultRadius = 5000;
+const defaultRadius = 10000;
 
 const Recenter = ({ lat, lng }) => {
   const map = useMap();
